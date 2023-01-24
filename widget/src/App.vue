@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue";
 import TheWelcome from "./components/TheWelcome.vue";
-import Widget from "./components/Widget.vue";
 </script>
 
 <template>
@@ -15,8 +13,7 @@ import Widget from "./components/Widget.vue";
     />
 
     <div class="wrapper">
-      <Widget></Widget>
-      <HelloWorld msg="You did it!" />
+      <widget-vue></widget-vue>
     </div>
   </header>
 
